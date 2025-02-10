@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch index.ts"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "koa": "^2.15.3"
+    "@koa/router": "^13.1.0",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "tsx": "^4.19.2"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@types/koa__router": "^12.0.4"
   }
 }
